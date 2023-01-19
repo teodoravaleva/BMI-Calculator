@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+section.container{
+    font-family: 'Open Sans', sans-serif;
+width: 70vw;
+border: 1px solid black;
+margin: 80px auto;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.75);
+display: flex;
+}
+
+.calc-info{
+    background-color: #F6F7F8;
+}
+
+img{
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+    margin: 45px 0px 30px 0px;
+}
+
+
+.gender{ 
+    font-weight: 600;
+    margin: 0% 2% 0% 38%;
+}
+
+.weight{
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+   
+}
+
+.kg{
+width: 60%;
+margin: 2% 20%;
+}
+
+.height{
+    font-weight: 600;
+   margin: 0% 45%;
+} 
+
+.cm{
+    width: 60%;
+    margin: 2% 20%;
+    }
+
+    button.calc{
+        margin: 3% 37%;
+        border: none;
+        background-color: #05A2D3;
+        color: white;
+        border-radius: 15px;
+        padding: 5px 40px;
+        font-weight: 600;
+        box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.75);
+        cursor: pointer;
+       
+    }
+
+    .calc:hover{
+        background-color: blue;
+    }
+    .calc:active{
+        transform: translateY(4px);
+    }
+
+    .BMI-num.underweight {
+        color: red;
+        margin: 3% 45%;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .text.underweight{
+        color: red;
+        margin: 3% 42%;
+    }
+
+    .BMI-num.normal{
+        color: green;
+        margin: 3% 45%;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .text.normal{
+        color: green;
+        margin: 3% 45%;
+    }
+
+    .text.overweight{
+        color: orange;
+        margin: 3% 43%;
+    }
+
+    .BMI-num.overweight{
+        color: orange;
+        margin: 3% 45%;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .BMI-num.obese {
+        color: red;
+        margin: 3% 45%;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .text.obese{
+        color: red;
+        margin: 3% 47%;
+    }
+
+    .IBW{
+        margin: 0% 25% 3% 25%;
+    }
+
+

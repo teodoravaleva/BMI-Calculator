@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./modern-css-reset.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section class="container">
+        <img src="./calculator.png" alt="img" class="img">
+        <div class="calc-info">
+            <h1 class="titel">BMI CALCULATOR</h1>
+            <label for="gender" class="gender">Gender</label>
+                
+            <select name="gender" id="gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select>
+            <label class="weight" for="weight">Weight</label>
+                <input class="kg" type="text" name="weight" placeholder="Kilograms...">
+                <label class="height" for="height">Height</label>
+                <input class="cm" type="text" name="height" placeholder="Centimeters...">
+                <button class="calc">Calculate</button>
+
+                 <div class="result">
+                    <!-- <p class="your-result">Your result:</p> -->
+                 </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
